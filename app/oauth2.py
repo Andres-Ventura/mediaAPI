@@ -12,8 +12,6 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl='login')
 
 # Expiration time of token 
 
-
-
 def create_access_token(data: dict):
     to_encode = data.copy()
 
